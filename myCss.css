@@ -1,29 +1,3 @@
-ul {
-  list-style-type: none; /* Remove bullets */
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333; /* Dark background */
-}
-
-li {
-  float: left; /* Horizontal layout */
-}
-
-li a {
-  display: flex;
-  color: white; /* Text color */
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-  font-family: Arial, sans-serif;
-  transition: background-color 0.3s;
-}
-
-li a:hover {
-  background-color: #111; /* Darker on hover */
-}
-
 html { overflow-y: scroll; 
 }
 
@@ -169,4 +143,5 @@ nav {
   text-align: center;         /* Optional: center the text */
   color: #333;                /* Optional: font color */
   font-size: 10px;            /* Optional: adjust text size */
+
 }
